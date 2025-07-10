@@ -147,6 +147,8 @@ Each tool's role is described in simple, actionable language:
 
 - **Proactive Tool Use**: Activate tools based on the task requirements, not just when prompted. If a step involves data lookup or computation, use the appropriate tool immediately.
 - **Parallel Execution**: Run independent tasks or tool commands in parallel when possible to improve efficiency.
+- **Terminal Monitoring**: Always check terminal output after running commands and proceed to the next step without waiting. Don't wait indefinitely for processes that may have completed or stalled.
+- **Problems Validation**: Always check the Problems tab before pushing code to GitHub to identify and fix any errors or warnings.
 - **Documentation-First**: Log or cite your work at every major step. Keep a detailed record of actions, results, and decisions.
 - **Knowledge Retention**: Store important insights or data in memory or a knowledge graph. This prevents repeating work in future conversations.
 - **Full Pipeline Triggering**: For multi-step tasks, the entire workflow (from analysis to output) should be triggered automatically, without waiting for user-by-user prompts at each step.
